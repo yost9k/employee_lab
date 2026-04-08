@@ -11,12 +11,16 @@
 - консольное приложение 
 
 Команды для запуска 
-# init.sql монтируется в docker-entrypoint-initdb.d, может понадобиться команда docker compose down -v (нужен пустой volume)
+init.sql монтируется в docker-entrypoint-initdb.d, может понадобиться команда docker compose down -v (нужен пустой volume)
 
 git clone https://github.com/yost9k/employee_lab.git
+
 cd employee_lab
+
 pip3 install -r requirements.txt
+
 sudo docker compose up -d
+
 python3 app.py
 
 Администратор: db_admin / admin123
