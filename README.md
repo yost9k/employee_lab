@@ -11,6 +11,7 @@
 - консольное приложение 
 
 Команды для запуска 
+
 init.sql монтируется в docker-entrypoint-initdb.d, может понадобиться команда docker compose down -v (нужен пустой volume)
 
 git clone https://github.com/yost9k/employee_lab.git
